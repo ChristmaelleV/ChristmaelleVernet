@@ -1,0 +1,374 @@
+
+/* Main Layout */
+* {
+    margin : 0;
+    }
+    .container {
+    display : grid;
+    grid-template-columns : 1fr;
+    grid-template-rows : auto auto 1fr auto;
+    height : 100vh;
+    }
+    .header {
+    background-color: #5d1414;
+    color : white;
+    padding : 20px;
+    text-align : center;
+    font-size : larger;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .box {
+    background-color : #ddc8cf;
+    padding : 25px;
+    text-align : center;
+    }
+    .box2{
+      background-color : #ddc8cf;
+      padding : 25px;
+      text-align : center;
+      }
+    .box nav {
+    margin : 0;
+    padding : 0;
+    }
+    .box nav ul {
+    list-style-type : none;
+    display : flex;
+    justify-content : center;
+    background-color : #ddc8cf;
+    padding : 0;
+    }
+    .box nav li {
+    background-color : #ddc8cf;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .box nav a {
+    text-decoration : none;
+    color : black;
+    padding : 25px;
+    }
+    .box nav a:hover {
+    color : #4A0404;
+    background-color : #EADDCA;
+    }
+    .box2 nav {
+      margin : 0;
+      padding : 0;
+      }
+      .box2 nav ul {
+      list-style-type : none;
+      display : flex;
+      justify-content : center;
+      background-color : #ddc8cf;
+      padding-top : 0;
+      }
+      .box2 nav li {
+      background-color : #ddc8cf;
+      font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .box2 nav a {
+      text-decoration : none;
+      color : black;
+      padding : 25px;
+      }
+      .box2 nav a:hover {
+      color : #4A0404;
+      background-color : #EADDCA;
+      }
+    .content {
+    background-color : #ceadae;
+    text-align : center;
+    font-size : 40px;
+    display : grid;
+    align-content : center;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .footer {
+    background-color : #54363b;
+    color : white;
+    padding : 10px;
+    text-align : center;
+    }
+    h1 {
+    padding-top : 2rem;
+    padding-bottom : 2rem;
+    margin-left : 10rem;
+    margin-right : 10rem;
+    }
+    main {
+    display : grid;
+    grid-template-rows : auto 1fr auto;
+    row-gap : 20px;
+    }
+    body {
+    margin : 0;
+    padding : 0;
+    }
+    .header-link {
+      color: white !important;
+      text-decoration: none; 
+    }
+    
+    /* About Me */
+    .AboutMe {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #ceadae;
+      }
+      
+      .AboutMe img {
+        float: left;
+        padding: 20px;
+      }
+      
+      .AboutMe p {
+        text-align: left;
+        padding: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+      }
+      
+      .AboutMe h1 { 
+        background-color: #3a1e22;
+        color: white;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 50px;
+      }
+      
+      .AboutMe h2 { 
+        color: #5d1414;
+        background-color: #ddc8cf;
+        padding: 5px;
+        font-size: 40px;
+      }
+      
+      footer {
+        background-color: #54363b;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        color: white;
+        padding: 10px;
+        margin-top: auto;
+      }
+
+      /* Portfolio */
+    .portfolio p {
+        background-color: #ceadae;
+        text-align: left;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+    }
+    
+    .portfolio {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        position: relative; 
+    }
+    
+    .portfolio h1 {
+        background-color: #3a1e22;
+        color: white;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-rows: repeat(3, auto);
+        margin: 0;
+        row-gap: 20px;
+    }
+    
+    .button {
+        display: inline-block;
+        padding: 10px;
+        background-color: #5d1414;
+        color: white;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .button:hover {
+        background-color: #54363b;
+    }
+    
+    footer {
+        background-color: #54363b;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: italic;
+        color: white;
+        padding: 10px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+.portfolio nav ul {
+  padding: 10px; 
+}
+
+.portfolio nav li {
+  font-size: 16px; 
+}
+.portfolio nav ul {
+  list-style: none; 
+  padding: 0; }
+
+.portfolio nav ul li {
+  display: inline;
+  margin-right: 0px; 
+}
+
+.portfolio nav ul li:last-child {
+  margin-right: 0; 
+}
+
+.portfolio nav ul li a {
+  text-decoration: none; 
+  color: black; 
+}
+
+    /* Contact Me */
+    
+    .Contact {
+      background-color: #ceadae;
+      text-align: center;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      min-height: 100vh;
+      display: flex; 
+      flex-direction: column; 
+    }
+    
+    .Contact h1 {
+      background-color: #3a1e22;
+      color: white;
+      text-align: center;
+      margin-left: 0;
+      margin-right: 0;
+      font-size: 50px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .Contact h2 {
+      color: #5d1414;
+      background-color: #ddc8cf;
+      font-size: 40px;
+    }
+    
+    footer {
+      background-color: #54363b;
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-style: italic;
+      color: white;
+      margin-top: auto; 
+    }
+    
+    .Contact p {
+      color: black;
+    }
+    
+    .Contact ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    .Contact a {
+      color: #54363b;
+      text-decoration: none;
+    }
+    
+    .Contact a:hover {
+      color: #54363b;
+    }
+    
+    i {
+      padding: 30px;
+    }
+    
+    
+    /* Resume */
+    .resumefinal {
+    background-color : #3a1e22;
+    color : white;
+    text-align : center;
+    margin-left : 0;
+    margin-right : 0;
+    font-size : 50px;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .resumebody {
+    background-color : #ceadae;
+    text-align : left;
+    font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .footer {
+    background-color : #54363b;
+    color : white;
+    padding : 10px;
+    text-align : center;
+   }
+  a {
+          text-decoration: none; 
+          color: black; }
+
+.portfolio nav ul {
+  list-style: none;
+  display: flex;
+}
+
+
+.portfolio nav ul li a {
+  text-decoration: none;
+  color: black; 
+  font-size: 16px;
+}
+p {
+  margin-left: 2rem;
+}
+h2 {
+  margin-left: 2rem;
+}
+h3 {
+  margin-left: 2rem;
+}
+h4 {
+  margin-left: 2rem;
+}
+
+footer a {
+  color: white;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  background-color: #54363b;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
